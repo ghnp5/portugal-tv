@@ -1,122 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Diretório de Streams Oficiais de Canais de Televisão em Portugal</title>
-    <style>
-        body {
-            font-size: 15px;
-            font-family: Helvetica, Arial, sans-serif;
-        }
-        body * {
-            box-sizing: border-box;
-        }
-        .grid-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
-        .grid-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            width: 150px;
-            min-height: 150px;
-        }
-        .grid-item a {
-            text-decoration: none;
-            font-weight: bold;
-            color: #333;
-            width: 100%;
-            height: 100%;
-        }
-        .grid-item .name {
-            color: #fff;
-        }
-        .grid-item .img-bx {
-            width: 100%;
-            min-height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-grow: 1;
-        }
-        .grid-item img {
-            max-width: 100px;
-            max-height: 100px;
-            display: block;
-            margin-top: 5px;
-        }
-        .grid-item-in {
-            background: #8d8d8d;
-            border: 1px solid #d3d3d3;
-            border-radius: 10px;
-            padding: 10px;
-            height: 100%;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-        }
-    </style>
-</head>
-<body>
-    <h1>Diretório de Streams Oficiais de Canais de Televisão em Portugal</h1>
-    <hr>
+    <title>
+      Diretório de Streams Oficiais de Canais de Televisão em Portugal
+    </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-container">
+      <h1>Diretório de Streams Oficiais de Canais de Televisão em Portugal</h1>
+      <hr />
 
-    <h2>Emissão em Direto</h2>
-    <div class="grid-container" id="livetv-grid"></div>
+      <h2>Emissão em Direto</h2>
+      <div class="grid-container" id="livetv-grid"></div>
 
-    <h2>Plataformas de Streaming</h2>
-    <div class="grid-container" id="streaming-grid"></div>
+      <h2>Plataformas de Streaming</h2>
+      <div class="grid-container" id="streaming-grid"></div>
 
-    <script>
-    const fetchJSON = async (url) => {
-        const response = await fetch(url);
-        const text = await response.text();
+      <script src="main.js"></script>
 
-        // remove comments
-        const jsonString = text.replace(/\/\*[^*]*\*\//g, '').trim();
+      <hr />
+      <p>
+        Este repositório contém uma coleção de links para os streams oficiais de
+        canais de televisão em Portugal. Todos os links direcionam para as
+        páginas oficiais dos canais e respetivos conteúdos de streaming.
+      </p>
 
-        const data = JSON.parse(jsonString);
-        return data;
-    }
+      <hr />
+      <p>
+        <b>Disclaimer:</b> This repository is a collection of links to official
+        websites of various TV channels. All logos and trademarks are the
+        property of their respective owners. The logos are used here for
+        identification and readability purposes only and do not imply any
+        affiliation or endorsement by the trademark holders. This project is not
+        affiliated with or endorsed by any of the organizations whose logos
+        appear here. Use of these logos follows fair use guidelines, where
+        applicable.
+      </p>
 
-    const genHtml = (div) => (channels) => {
-        const gridContainer = document.getElementById(div);
-            channels.forEach(channel => {
-                const item = document.createElement("div");
-                item.classList.add("grid-item");
-                item.innerHTML = `
-                    <a href="${channel.url}" target="_blank">
-                        <div class="grid-item-in">
-                            <div class="name">${channel.name}</div>
-                            <div class="img-bx"><img src="${channel.img}" alt="${channel.name}"></div>
-                        </div>
-                    </a>
-                `;
-                gridContainer.appendChild(item);
-            });
-    };
-
-    fetchJSON('livetv.json')
-        .then(genHtml('livetv-grid'))
-        .catch(error => console.error('Erro (livetv):', error));
-    fetchJSON('streaming.json')
-        .then(genHtml('streaming-grid'))
-        .catch(error => console.error('Erro (streaming):', error));
-    </script>
-
-    <hr>
-    <p>Este repositório contém uma coleção de links para os streams oficiais de canais de televisão em Portugal. Todos os links direcionam para as páginas oficiais dos canais e respetivos conteúdos de streaming.</p>
-
-    <hr>
-    <p><b>Disclaimer:</b> This repository is a collection of links to official websites of various TV channels. All logos and trademarks are the property of their respective owners. The logos are used here for identification and readability purposes only and do not imply any affiliation or endorsement by the trademark holders. This project is not affiliated with or endorsed by any of the organizations whose logos appear here. Use of these logos follows fair use guidelines, where applicable.</p>
-
-    <p><b>Declaração de exoneração de responsabilidade:</b> Este repositório é uma coleção de links para os sites oficiais de vários canais de televisão. Todos os logótipos e marcas registadas são propriedade dos respetivos proprietários. Os logótipos são aqui utilizados apenas para fins de identificação e legibilidade, não implicando qualquer afiliação ou apoio por parte dos titulares das marcas. Este projeto não é afiliado nem endossado por nenhuma das organizações cujos logótipos aqui aparecem. A utilização destes logótipos segue as diretrizes de uso legítimo, sempre que aplicável.</p>
-</body>
+      <p>
+        <b>Declaração de exoneração de responsabilidade:</b> Este repositório é
+        uma coleção de links para os sites oficiais de vários canais de
+        televisão. Todos os logótipos e marcas registadas são propriedade dos
+        respetivos proprietários. Os logótipos são aqui utilizados apenas para
+        fins de identificação e legibilidade, não implicando qualquer afiliação
+        ou apoio por parte dos titulares das marcas. Este projeto não é afiliado
+        nem endossado por nenhuma das organizações cujos logótipos aqui
+        aparecem. A utilização destes logótipos segue as diretrizes de uso
+        legítimo, sempre que aplicável.
+      </p>
+    </div>
+  </body>
 </html>
