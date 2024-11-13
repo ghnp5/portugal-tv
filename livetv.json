@@ -1,0 +1,132 @@
+[
+  /* https://www.rtp.pt/ */
+  {
+    "name": "RTP 1",
+    "url": "https://www.rtp.pt/play/direto/rtp1",
+    "img": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/5-563718101410.png"
+  },
+  {
+    "name": "RTP 2",
+    "url": "https://www.rtp.pt/play/direto/rtp2",
+    "img": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/3-363718101410.png"
+  },
+  {
+    "name": "RTP 3",
+    "url": "https://www.rtp.pt/play/direto/rtp3",
+    "img": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/64-393818101410.png"
+  },
+  {
+    "name": "RTP Memória",
+    "url": "https://www.rtp.pt/play/direto/rtpmemoria",
+    "img": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/80-584819141705.png"
+  },
+  {
+    "name": "RTP Internacional",
+    "url": "https://www.rtp.pt/play/direto/rtpinternacional",
+    "img": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/120-344318101410.png"
+  },
+  {
+    "name": "RTP Madeira",
+    "url": "https://www.rtp.pt/play/direto/rtpmadeira",
+    "img": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/107-443519141305.png"
+  },
+  {
+    "name": "RTP Açores",
+    "url": "https://www.rtp.pt/play/direto/rtpacores",
+    "img": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/106-563419141305.png"
+  },
+  {
+    "name": "RTP África",
+    "url": "https://www.rtp.pt/play/direto/rtpafrica",
+    "img": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/27-363219141305.png"
+  },
+  {
+    "name": "Zig Zag",
+    "url": "https://www.rtp.pt/play/zigzag/direto/tv",
+    "img": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/zigzagtv2020.png"
+  },
+  {
+    "name": "RTP Desporto 1",
+    "url": "https://www.rtp.pt/play/direto/rtpdesporto1",
+    "img": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/1073-355319171505.png"
+  },
+  {
+    "name": "RTP Desporto 2",
+    "url": "https://www.rtp.pt/play/direto/rtpdesporto2",
+    "img": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/1074-485319171505.png"
+  },
+  {
+    "name": "RTP Desporto 3",
+    "url": "https://www.rtp.pt/play/direto/rtpdesporto3",
+    "img": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/1075-025419171505.png"
+  },
+  {
+    "name": "RTP Desporto 4",
+    "url": "https://www.rtp.pt/play/direto/rtpdesporto4",
+    "img": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/1076-155419171505.png"
+  },
+  {
+    "name": "RTP Desporto 5",
+    "url": "https://www.rtp.pt/play/direto/rtpdesporto5",
+    "img": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/1095-225422201607.png"
+  },
+  {
+    "name": "RTP Desporto 6",
+    "url": "https://www.rtp.pt/play/direto/rtpdesporto6",
+    "img": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/1096-415422201607.png"
+  },
+  /* https://sic.pt/ */
+  {
+    "name": "SIC",
+    "url": "https://sic.pt/direto",
+    "img": "https://images.impresa.pt/sic/2021-04-07-logo-sic.png-45b11c81-1"
+  },
+  {
+    "name": "SIC Notícias",
+    "url": "https://sicnoticias.pt/agora",
+    "img": "https://sdistribution.impresa.pt/data/content/binaries/b58/207/7422461b-ba2f-49d1-a5bf-dcddad117f38/sicnot.svg"
+  },
+  /* https://tviplayer.iol.pt/ */
+  {
+    "name": "TVI",
+    "url": "https://tviplayer.iol.pt/direto/TVI",
+    "img": "https://cdn.iol.pt/img/logostvi/branco/tvi.png"
+  },
+  {
+    "name": "CNN",
+    "url": "https://tviplayer.iol.pt/direto/CNN",
+    "img": "https://cdn.iol.pt/img/logostvi/branco/cnn.png"
+  },
+  /*{
+    "name": "TVI Reality",
+    "url": "https://tviplayer.iol.pt/direto/TVI_REALITY",
+    "img": "https://cdn.iol.pt/img/logostvi/branco/tvireality.png"
+  },
+  {
+    "name": "VMais",
+    "url": "https://tviplayer.iol.pt/direto/VMAIS",
+    "img": "https://cdn.iol.pt/img/logostvi/branco/vmaistvi.png"
+  },
+  {
+    "name": "TVI África",
+    "url": "https://tviplayer.iol.pt/direto/TVI_AFRICA",
+    "img": "https://cdn.iol.pt/img/logostvi/branco/tviafrica.png"
+  },*/
+  {
+    "name": "TVI Internacional",
+    "url": "https://tviplayer.iol.pt/direto/TVI_INTERNACIONAL",
+    "img": "https://cdn.iol.pt/img/logostvi/branco/tviinternacional.png"
+  },
+  /* https://portocanal.sapo.pt/ */
+  {
+    "name": "Porto Canal",
+    "url": "https://portocanal.sapo.pt/live",
+    "img": "https://portocanal.sapo.pt/img/logo.svg"
+  },
+  /* https://pt.euronews.com/ */
+  {
+    "name": "Euronews",
+    "url": "https://pt.euronews.com/live",
+    "img": "https://static.euronews.com/website/images/vector/euronews-logo-redesigned.svg"
+  }
+]

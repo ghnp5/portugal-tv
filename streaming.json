@@ -1,0 +1,17 @@
+[
+  {
+    "name": "RTP Play",
+    "url": "https://www.rtp.pt/play/",
+    "img": "https://cdn-images.rtp.pt/common/img/channels/logos/color-negative/horizontal/rtpplay-small.png"
+  },
+  {
+    "name": "OPTO SIC",
+    "url": "https://opto.sic.pt/",
+    "img": "https://opto.sic.pt/logo.png"
+  },
+  {
+    "name": "TVI Player",
+    "url": "https://tviplayer.iol.pt/",
+    "img": "https://cdn.iol.pt/img/logostvi/branco/tviplayer.png"
+  }
+]
