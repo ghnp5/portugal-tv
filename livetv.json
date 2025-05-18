@@ -89,32 +89,37 @@
   /* https://tviplayer.iol.pt/ */
   {
     "name": "TVI",
-    "url": "https://tviplayer.iol.pt/direto/TVI",
+    "url": "https://tviplayer.iol.pt/direto/tvi",
     "img": "https://cdn.iol.pt/img/logostvi/branco/tvi.png"
   },
   {
     "name": "CNN",
-    "url": "https://tviplayer.iol.pt/direto/CNN",
+    "url": "https://tviplayer.iol.pt/direto/cnn",
     "img": "https://cdn.iol.pt/img/logostvi/branco/cnn.png"
   },
-  /*{
+  {
     "name": "TVI Reality",
-    "url": "https://tviplayer.iol.pt/direto/TVI_REALITY",
+    "url": "https://tviplayer.iol.pt/direto/tvireality",
     "img": "https://cdn.iol.pt/img/logostvi/branco/tvireality.png"
   },
   {
+    "name": "TVI Ficção",
+    "url": "https://tviplayer.iol.pt/direto/tvificcao",
+    "img": "https://cdn.iol.pt/img/logostvi/branco/tvificcao.png"
+  },
+  {
     "name": "VMais",
-    "url": "https://tviplayer.iol.pt/direto/VMAIS",
+    "url": "https://tviplayer.iol.pt/direto/vmais",
     "img": "https://cdn.iol.pt/img/logostvi/branco/vmaistvi.png"
   },
   {
     "name": "TVI África",
-    "url": "https://tviplayer.iol.pt/direto/TVI_AFRICA",
+    "url": "https://tviplayer.iol.pt/direto/tviafrica",
     "img": "https://cdn.iol.pt/img/logostvi/branco/tviafrica.png"
-  },*/
+  },
   {
     "name": "TVI Internacional",
-    "url": "https://tviplayer.iol.pt/direto/TVI_INTERNACIONAL",
+    "url": "https://tviplayer.iol.pt/direto/tviinternacional",
     "img": "https://cdn.iol.pt/img/logostvi/branco/tviinternacional.png"
   },
   /* https://portocanal.sapo.pt/ */
